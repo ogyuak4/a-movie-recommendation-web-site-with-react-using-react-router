@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    background-color:#11e6e9;
+}
+
+
+header {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
+    background-color: salmon;
+}
+
+  
+header a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+header a:hover {
+    color: #161616;
+    text-decoration: underline;
+}
+
+
+
+.about-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #c9a1f5;
+    padding: 20px;
+  }
+  
+  .about-h1 {
+    font-size: 36px;
+    color: #452c50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-p {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  
+.homee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://m.media-amazon.com/images/M/MV5BY2ZhMjI5MWEtOTVkYi00MjU1LWExOTgtYzIzZWY1YzQyZDM0XkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .home-h1 {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  .home-link:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+.genres {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc1cc;
+  }
+  
+  .genres h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .genres {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items horizontally to the center */
+  }
+  
+  .genres h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; /* Center align the heading text */
+  }
+  
+  .genres a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background-color: #eaeaea;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center; /* Center align the genre names */
+  }
+  
+  .genres a:hover {
+    background-color: #ccc;
+  }
+  
+  /* Custom styles for each genre link */
+  .genres .action {
+    background-color: #007bff; /* Blue */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .adventure {
+    background-color: #28a745; /* Green */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .animation {
+    background-color: #6c757d; /* Gray */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .biography {
+    background-color: #ffc107; /* Yellow */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 700px;
+    padding-left: 700px;
+    font-size: xx-large;
+  }
+  
+  .genres .comedy {
+    background-color: #f58220; /* Orange */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 700px;
+    padding-left: 700px;
+    font-size: xx-large;
+  }
+  
+  .genres .crime {
+    background-color: #dc3545; /* Red */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .drama {
+    background-color: #6610f2; /* Purple */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .family {
+    background-color: #fd7e14; /* Dark Orange */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .fantasy {
+    background-color: #007bff; /* Blue */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .history {
+    background-color: #6c757d; /* Gray */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .horror {
+    background-color: #dc3545; /* Red */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .musical {
+    background-color: #9b59b6; /* Violet */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .romance {
+    background-color: #ff0000; /* Red */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .scifi {
+    background-color: #007bff; /* Blue */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .short {
+    background-color: #6c757d; /* Gray */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .sport {
+    background-color: #28a745; /* Green */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .thriller {
+    background-color: #dc3545; /* Red */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .war {
+    background-color: #6c757d; /* Gray */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+  .genres .western {
+    background-color: #f58220; /* Orange */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 800px;
+    padding-left: 800px;
+    font-size: xx-large;
+  }
+  
+
+  .drama-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .drama-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .drama-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .drama-description {
+    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: rgb(11, 244, 225);
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
+  
+  .recommend-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recommend-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .recommend-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recommend-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .recommend-description {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #13e7dc;
+    color: #060300;
+  }
+  
+  .recommend-button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .recommend-button:hover {
+    background-color: #ddd;
+  }
+  
